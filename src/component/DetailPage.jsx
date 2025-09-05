@@ -47,8 +47,8 @@ export default function DetailPage() {
                                 <p className='lg:text-4xl md:text-3xl text-2xl font-bold'>{event.name}</p>
                                 <p className='lg:text-2xl md:text-xl text-lg font-medium'>Location and Time</p>
                             <div className=' flex flex-col gap-2 py-5'>
-                                <p className='lg:text-xl md:text-lg text-lg '><i className='fa-solid fa-calendar-week'></i> {event.dateTime}</p>
-                                <p className='lg:text-xl md:text-lg text-lg '><i className='fa-solid fa-location-dot'></i> {event.venue}</p>
+                                <p className='lg:text-xl md:text-lg text-lg '>📅 {event.date} | ⏰ {event.time}</p>
+                                <p className='lg:text-xl md:text-lg text-lg '>📍 {event.venue}</p>
                             </div>
                                 <p className='lg:text-2xl md:text-xl text-lg font-medium'>Decription</p>
                             <div className='flex flex-col gap-3'>
